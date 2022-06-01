@@ -12,18 +12,20 @@
     />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/overlay.css">
+    <link rel="stylesheet" href="styles/configuration.css">
     <title>Tic Tac Toe</title>
   </head>
   <body>
+    <div id="backdrop"></div>
     <header id="main-header">
       <h1>Play Tic Tak Toe</h1>
       <p>Built with HTML, CSS, JavaScript and -ofcourse- Lot's of Love!</p>
     </header>
     <main>
-      <aside>
+      <aside class="model" id="config-overlay">
         <h2>Choose your NAME</h2>
         <form>
-          <div>
+          <div class="form-control">
             <label for="playername">Player name</label>
             <input type="text" name="playername" id="playername" />
           </div>
